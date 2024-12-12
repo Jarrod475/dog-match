@@ -37,3 +37,18 @@
   font-size: 16px;
   margin-top: 10%;
 }
+
+
+.tilecontainer{
+  display: grid;
+  grid-template-columns:  auto auto auto auto auto auto auto ;
+}
+.tile{
+  background-color: transparent;
+  border: none;
+}
+
+.tile img{
+  width: 200px;
+  height: 200px;
+}
