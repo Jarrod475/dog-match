@@ -42,10 +42,11 @@
 .tilecontainer{
   display: grid;
   grid-template-columns:  auto auto auto auto auto auto auto ;
+  gap: 10px ;
 }
 .tile{
   background-color: transparent;
-  border: none;
+  border: solid black 5px;
 }
 
 .tile img{
